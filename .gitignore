@@ -1,0 +1,17 @@
+# Credentials and local-only files
+.env
+.env.*
+!.env.example
+*keyring*
+*credentials*
+*.pem
+*.key
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+raw/
+repair_raw/
+logs/
+*.log
